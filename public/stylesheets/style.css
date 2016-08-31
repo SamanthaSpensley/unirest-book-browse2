@@ -1,0 +1,26 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.book {
+    width: 50%;
+    float: left;
+    min-height: 400px;
+    color: white;
+    padding: 20px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.overlay {
+  background:rgba(0, 0, 0, 0.7);
+  padding: 2vw;
+  margin: 2vw;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}

@@ -1,0 +1,13 @@
+<h1>New York Time's Best Sellers: Fiction</h1>
+
+{{#books}}
+  <article class="book" style="background: url({{book_image}}); background-repeat:no-repeat; background-size: cover;">
+    <div class="overlay">
+      <h2>{{title}}</h2>
+      <h4>by {{author}}</h4>
+      <p>{{description}}</p>
+      <!-- <img src="{{book_image}}" /> -->
+      <a href="{{amazon_product_url}}" target="blank">Buy Book</a>
+    </div>
+  </article>
+{{/books}}
